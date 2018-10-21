@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form Validation</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+<main>
+	<section class="form-container">
+		<form class="main-form">
+			<div class="form-group">
+				<label for="full-name"><i class="fa fa-user-alt"></i>Full Name</label>
+				<input type="text" title="Should contain only letters and spaces" class="text-in" id="full-name" placeholder="E.g: Hassani Rami">
+			</div>
+			<div class="form-group">
+				<label for="address"><i class="fa fa-home"></i>Home Address</label>
+				<input type="text" class="text-in" id="address" placeholder="E.g: Tunisia">
+			</div>
+			<div class="form-group">
+				<label for="email"><i class="fa fa-at"></i>Email Address</label>
+				<input type="text" class="text-in" id="email" placeholder="E.g: abcd@domain.com">
+			</div>
+			<div class="form-group">
+				<label for="pwd"><i class="fa fa-star"></i>Password</label>				
+				<input type="password" class="text-in" id="pwd" placeholder="E.g: mY%p4ssD">
+				<small>Should contain at least 8 characters including numbers, special characters and at least one capital letter </small>
+			</div>
+			
+			<div class="form-group">
+				<label for="comm"><i class="fa fa-comment-dots"></i>Comments</label>
+				<textarea rows="3" id="comm" class="text-in"></textarea>
+			</div>
+			<div class="form-group">
+				<!----><button type="submit" class="form-sub" id="form-sub">Send</button>
+				<button type="reset" class="form-res">Reset</button>
+			</div>
+		</form>
+	</section>
+</main>
+
+
+
+<script src="main.js" type="text/javascript"></script>
+</body>
+</html>

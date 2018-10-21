@@ -1,0 +1,33 @@
+body{
+	background-image: linear-gradient(to bottom right, rgba(200,40,100,1),rgba(20,40,150,1));
+	background-repeat: no-repeat; 
+	background-size: cover; width: 95vw; display: flex; justify-content: center; min-height: 100vh;
+}
+.form-container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+form{ flex-basis: 60%;}
+.form-group{
+	display: flex; flex-direction: column;
+}
+label{
+	color: white; margin: 3% 2% ; font-size: 110%;
+}
+label i{color: yellow; margin-right: 3%}
+.text-in{padding: 4%; color: white; border-radius: 10px; border: 2px white solid; background-color: rgba(59,57,57,0.43)}
+.text-in:focus{border: 2px solid green;}
+small{
+	color: darkturquoise; margin-top: 1%;
+}
+button{
+	padding: 4%; background-color: rgba(55,55,55,0.73);  border: 2px solid white; border-radius: 10px; margin: 3% 0;
+	color: rgba(155,255,255,0.73);
+}
+.form-sub:hover{
+	background-color: rgba(28,136,57,1.00); color: white; transition-duration: .5s;
+}
+.form-res:hover{
+	background-color: rgba(128,6,57,1.00); color: white; transition-duration: .5s;
+}
