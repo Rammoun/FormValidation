@@ -7,7 +7,7 @@ function verify(e){
 	var pwdpat=/^(?=\S*[a-z])(?=\S*[A-Z])(?=\S*\d)(?=\S*[^\w\s])\S{8,}$/g;
 	var mtchmail=email.match(mailpat);
 	var mtchpwd=pwd.match(pwdpat);
-	if ((document.getElementById("full-name").value=="")||(document.getElementById("email").value=="")||(document.getElementById("address").value=="")||(document.getElementById("pwd").value=="")){
+	if ((document.getElementById("full-name").value=="")||(document.getElementById("email").value=="")|| (document.getElementById("address").value=="")||(document.getElementById("pwd").value=="")){
 		window.alert("One or more fields are empty, please check");
 		e.preventDefault();
 	}

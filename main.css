@@ -1,14 +1,14 @@
 body{
 	background-image: linear-gradient(to bottom right, rgba(200,40,100,1),rgba(20,40,150,1));
 	background-repeat: no-repeat; 
-	background-size: cover; width: 95vw; display: flex; justify-content: center; min-height: 100vh;
+	background-size: cover; width: 95vw; min-height: 100vh;
 }
 .form-container{
 	display: flex;
 	justify-content: center;
 	width: 100%;
 }
-form{ flex-basis: 60%;}
+form{ flex-basis: 30%;}
 .form-group{
 	display: flex; flex-direction: column;
 }
